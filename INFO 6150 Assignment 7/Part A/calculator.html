@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container calculator-page">
+
+        <h2>Welcome, <span id="loggedInUser"></span></h2>
+        <div class="form-group">
+            <label for="number1">Number 1</label>
+            <input type="text" id="number1">
+            <div class="error" id="number1Error"></div>
+        </div>
+        <div class="form-group">
+            <label for "number2">Number 2</label>
+            <input type="text" id="number2">
+            <div class="error" id="number2Error"></div>
+        </div>
+        <div id="result" class="result">Result: <span id="calcResult"></span></div>
+        <div class="buttons">
+            <button id="add">Add</button>
+            <button id="subtract">Subtract</button>
+            <button id="multiply">Multiply</button>
+            <button id="divide">Divide</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
